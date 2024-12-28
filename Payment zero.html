@@ -1,0 +1,222 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAYMENT - ZERO HOSTING</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    /* General bodies */
+    body {
+        font-family: 'Roboto', Helvetica, Arial, sans-serif;
+        background-image: url('https://img101.pixhost.to/images/135/547325153_global-namaowner.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: #fff; 
+      }
+      /* Container */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+      pre, code {
+        font-family: 'Roboto Mono', 'Courier New', 'Courier', monospace;
+      }
+    /* Header Section */
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .headerx {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      padding: 10px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .header .info {
+      flex: 1;
+    }
+    
+    .header .info h1 {
+      margin: 0;
+      font-size: 1.5rem;
+      color: #333;
+    }
+
+    .header .info p {
+      margin: 5px 0;
+      font-size: 1,5rem;
+      color: #333;
+    }
+    
+        .headerx .info {
+      flex: 1;
+    }
+    
+       .headerx .info h1 {
+      margin: 0;
+      font-size: 1.0rem;
+      color: #333;
+    }
+
+    .headerx .info p {
+      margin: 5px 0;
+      font-size: 1,5rem;
+      color: #333;
+    }
+    
+    .custom-font {
+      font-family: 'Roboto', 'sans-serif';
+      font-size: 1,5rem;
+      color: black;
+    }
+          /* Flexbox container untuk nomor dan button */
+      .payment-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: -14px;
+      }
+
+      .payment-text {
+        flex-grow: 1;
+        margin-right: 10px;
+      }
+      /* Button */
+            button {
+        font-family: 'Courier New', Courier, monospace;
+      }
+
+      .copy-button {
+        background-color: #F5F5F5; /* Warna abu-abu gelap */
+        color: #000000;
+        border: 1px solid black; /* Tambahkan stroke hitam */
+        padding: 5px 13px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s, transform 0.3s;
+      }
+      .copy-button:hover {
+        background-color: #3d3d3d;
+        transform: scale(1.05); /* Efek hover */
+      }
+
+      .modal-content {
+        background-color: #fff;
+        margin: 15% auto;
+        padding: 20px;
+        border-radius: 5px;
+        width: 80%;
+        text-align: center;
+      }
+
+      .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+      }
+
+      .close:hover,
+      .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+      }
+  </style>
+  <script>
+    function copyText(text, buttonElement) {
+        navigator.clipboard.writeText(text).then(function() {
+          buttonElement.textContent = 'TERSALIN!';
+          buttonElement.style.backgroundColor = '#4CAF50';
+          setTimeout(function() {
+            buttonElement.textContent = 'COPY'; 
+            buttonElement.style.backgroundColor = '#F5F5F5';
+          }, 2000); // delay nya
+        }, function(err) {
+          alert('Gagal menyalin teks: ', err);
+        });
+      }
+
+      function openModal() {
+        document.getElementById('qrModal').style.display = 'block';
+      }
+
+      function closeModal() {
+        document.getElementById('qrModal').style.display = 'none';
+      }
+  </script>
+  </head>
+    <body>
+    <div class ="container">
+      <!-- Header-->
+      <div class = "header">
+        <div class = "info">
+          <h1>PAYMENT BY ZERODEV</h1>
+          <p>© Payment by ZerooHosting</p>
+        </div>
+    </div>
+    </div>
+        <div class = "container">
+      <div class = "headerx">
+        <div class = "info">
+        <div class = "payment-text">
+        <h1>PAYMENT DANA</h1>
+        <button class="copy-button" onclick="copyText('081997715124', this)">COPY TO PAYMENT</button>  
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class = "container">
+      <div class = "headerx">
+        <div class = "info">
+        <div class = "payment-text">
+        <h1>PAYMENT OVO</h1>
+        <button class="copy-button" onclick="copyText('081997715124', this)">COPY TO PAYMENT</button>  
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class = "container">
+      <div class = "headerx">
+        <div class = "info">
+        <div class = "payment-text">
+        <h1>PAYMENT GOPAY</h1>
+        <button class="copy-button" onclick="copyText('081997715124', this)">COPY TO PAYMENT</button>  
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class = "container">
+      <div class = "headerx">
+        <div class = "info">
+        <h1>PAYMENT QRISS ALLPAY</h1>
+        <form action="https://img101.pixhost.to/images/135/547324321_global-namaowner.jpg">
+        <button type="submit">CLICK TO VIEW QRISS</button>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class = "container">
+      <div class = "headerx">
+        <div class = "info">
+          <h1>Wajib Kirim Bukti Tranfer!!!</h1>
+        </div>
+      </div>
+    </div>
+<marquee behavior="scroll" direction="left" style="color:#ff4500; font-size:16px;">
+  🛍️ ZeroHosting - Toko Hosting Yang Sangat Terpercaya Dan menjual Kebutuhan Hosting Seperti Vps, Panel Pterodactyl, Script Bot Whatsapp, dll.
+</marquee>
+  </body>
+</html>
